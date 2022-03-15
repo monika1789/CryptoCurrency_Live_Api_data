@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="main.css">
+<script src="main.js" defer></script>
+<title>Crypto Currency</title>
+</head>
+<body>
+<section class ="gallery bg-black bg-fixed">
+    <div class="heading">
+        <h1 class="text-center text-white display-1">CRYPTOCURRENCY RATES</h1>
+    </div>
+    <div class="container py-5 ">
+    <div class="row">
+    <figure class="gallery__item gallery__item--1 col-lg-6 " id="fig1" onclick="getData(0,0)" >
+        <img class="gallery__img rounded-circle " src="images/kanchanara-rhm7H8X5J98-unsplash.jpg" alt="BTC">
+        <h1 class="text-center text-white">BITCOIN</h1>
+        <h2 id="displayRate" class="text-white text-center"></h2>
+    </figure>
+    <figure class="gallery__item gallery__item--2 col-lg-6"  id="fig2" onclick ="getData(1,1)">
+        <img class="gallery__img rounded-circle" src="images/kanchanara-jpsocjU9R7s-unsplash.jpg" alt="ETH">
+        <h1 class="text-center text-white">ETHEREUM</h1>
+        <h2 id="displayRate1" class="text-center text-white"></h2>
+    </figure>
+    <figure class="gallery__item gallery__item--2 col-lg-6"  id="fig3" onclick ="getData(2,2)">
+        <img class="gallery__img rounded-circle" src="images/kanchanara-ClCAEiWideU-unsplash.jpg" alt="ADA">
+        <h1 class="text-center text-white">CARDANO</h1>
+        <h2 id="displayRate2" class="text-center text-white"></h2>
+    </figure>
+    <figure class="gallery__item gallery__item--2 col-lg-6"  id="fig4" onclick ="getData(3,3)">
+        <img class="gallery__img rounded-circle" src="images/quantitatives-nOE8zP8YAAI-unsplash.jpg" alt="LTC">
+        <h1 class="text-center text-white">LITECOIN</h1>
+        <h2 id="displayRate3" class="text-center text-white"></h2>
+    </figure>
+</div>
+
+</div>
+</div>    
+</section>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>
